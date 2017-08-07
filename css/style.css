@@ -4,7 +4,7 @@
 
 @media(min-width:960px){
     #movies .col-md-3 .well{
-        height: 450px;
+        height: 480px;
     }
      #movies .col-md-3 .img{
          height: 250px;
