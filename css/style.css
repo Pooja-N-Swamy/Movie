@@ -2,20 +2,31 @@
     width:100%;
 }
 
-@media(min-width:960px){
+@media(max-width:500px){
     #movies .col-md-3 .well{
-        height: 400px;
+        height: auto;
+        width: 100%;
     }
-     #movies .col-md-3 .img{
+}
+@media(min-width:700px){
+    #movies .col-md-3 .well{
+        height: 410px;
+    }
+     #movies .col-md-3 img{
          height: 280px;
     }
 }
+
+@media(min-width:960px){
+    #movies .col-md-3 .well{
+        height: 410px;
+    }
+     #movies .col-md-3 img{
+         height: 280px;
+    }
+}
+
 .thumbnail{
     height:80%;;
     width: 100%;
-}
-@media(max-width:420px){
-    #movies .col-md-3 .well{
-        height: auto;
-    }
 }

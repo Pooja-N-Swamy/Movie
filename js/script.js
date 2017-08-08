@@ -16,11 +16,11 @@ function searchMovie(searchTitle){
             var output = '';
             $.each(movies, function(index,movie){
                output +=   `
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-4">
                     <div class= "well text-center">
                         <img src= "${movie.Poster}">
                         <h5>${movie.Title}</h5>
-                        <a onclick = "movieSelected('${movie.imdbID}')" class="btn btn-primary" href='#'>Movie Deatails</a>
+                        <a onclick = "movieSelected('${movie.imdbID}')" class="btn btn-primary" href='#'>Movie Details</a>
                     </div>
                 </div>
             `;
